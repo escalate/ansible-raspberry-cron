@@ -1,3 +1,5 @@
+[![Molecule](https://github.com/escalate/ansible-raspberry-cron/actions/workflows/molecule.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-cron/actions/workflows/molecule.yml)
+
 # Ansible Role: Raspberry - Cron
 
 An Ansible role that manages [cron](https://wiki.debian.org/cron) on Raspberry Pi OS.
