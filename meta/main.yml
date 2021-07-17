@@ -15,4 +15,5 @@ galaxy_info:
     - pi
     - raspberrypi
     - cron
+    - crontab
 dependencies: []
