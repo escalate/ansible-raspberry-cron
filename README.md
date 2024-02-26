@@ -1,14 +1,8 @@
-[![Molecule](https://github.com/escalate/ansible-raspberry-cron/actions/workflows/molecule.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-cron/actions/workflows/molecule.yml)
+[![Test](https://github.com/escalate/ansible-raspberry-cron/actions/workflows/test.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-cron/actions/workflows/test.yml)
 
 # Ansible Role: Raspberry - Cron
 
 An Ansible role that manages [cron](https://wiki.debian.org/cron) on Raspberry Pi OS (Debian Bookworm).
-
-## Install
-
-```
-$ ansible-galaxy install escalate.cron
-```
 
 ## Role Variables
 
@@ -20,6 +14,12 @@ This role relies on the following dependencies:
 
 * Roles: None
 * Collections: None
+
+## Installation
+
+```
+$ ansible-galaxy role install escalate.cron
+```
 
 ## Example Playbook
 
