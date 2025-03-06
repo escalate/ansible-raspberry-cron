@@ -12,8 +12,8 @@ This roles has no variables that can be overridden.
 
 This role relies on the following dependencies:
 
-* Roles: None
-* Collections: None
+- Roles: None
+- Collections: None
 
 ## Installation
 
