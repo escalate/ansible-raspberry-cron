@@ -4,15 +4,15 @@
     state: present
     update_cache: true
 
-- name: Set PATH variable to root crontab
+- name: Set PATH variable for root user crontab
   ansible.builtin.cron:
     name: PATH
     user: root
     env: true
-    job: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    job: /usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
     state: present
 
-- name: Set SHELL variable to root crontab
+- name: Set SHELL variable for root user crontab
   ansible.builtin.cron:
     name: SHELL
     user: root
